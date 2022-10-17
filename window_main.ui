@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>window_main</class>
+ <widget class="QMainWindow" name="window_main">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>510</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_segement">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>300</y>
+      <width>510</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>******************************************</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_title">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>220</y>
+      <width>350</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>26</pointsize>
+      <weight>30</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>enterprise code generate sys</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_segement_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>200</y>
+      <width>980</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>******************************************</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>510</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="action_accode">
+    <property name="title">
+     <string>access code</string>
+    </property>
+    <addaction name="action_feature1"/>
+    <addaction name="action_feature2"/>
+    <addaction name="action_feature3"/>
+    <addaction name="action_feature4"/>
+    <addaction name="action_feature5"/>
+    <addaction name="action_feature6"/>
+   </widget>
+   <widget class="QMenu" name="action_feature7">
+    <property name="title">
+     <string>bar code</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="action_feature8">
+    <property name="title">
+     <string>QR code</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="action_feature9">
+    <property name="title">
+     <string>luck draw</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="action_exit">
+    <property name="title">
+     <string>exit</string>
+    </property>
+   </widget>
+   <addaction name="action_accode"/>
+   <addaction name="action_feature7"/>
+   <addaction name="action_feature8"/>
+   <addaction name="action_feature9"/>
+   <addaction name="action_exit"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_feature1">
+   <property name="text">
+    <string>6位</string>
+   </property>
+  </action>
+  <action name="action_feature2">
+   <property name="text">
+    <string>9位</string>
+   </property>
+  </action>
+  <action name="action_feature3">
+   <property name="text">
+    <string>24 digit mix</string>
+   </property>
+  </action>
+  <action name="action_feature4">
+   <property name="text">
+    <string>含数据分析功能</string>
+   </property>
+  </action>
+  <action name="action_feature5">
+   <property name="text">
+    <string>Batch generate</string>
+   </property>
+  </action>
+  <action name="action_feature6">
+   <property name="text">
+    <string>supplement</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
